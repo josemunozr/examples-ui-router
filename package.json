@@ -1,0 +1,12 @@
+{
+  "name": "ui-router-explamples",
+  "version": "1.0.0",
+  "description": "examples ui-router angularJs 1.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

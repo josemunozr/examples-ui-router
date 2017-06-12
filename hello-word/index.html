@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ui-router</title>
+  <script src="https://code.angularjs.org/1.5.8/angular.min.js" charset="utf-8"></script>
+  <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="helloword.js" charset="utf-8"></script>
+  <style>.active { color: red; font-weight: bold; }</style>
+</head>
+<body ng-app="helloWord">
+  <a ui-sref="hello" ui-sref-active="active">Hello</a>
+  <a ui-sref="about" ui-sref-active="active">About</a>
+  <ui-view></ui-view>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Galaxy</title>
+  <script src="https://code.angularjs.org/1.5.8/angular.min.js" charset="utf-8"></script>
+  <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="hello-galaxy.js" charset="utf-8"></script>
+  <script src="hello/hello.controller.js" charset="utf-8"></script>
+  <script src="hello/hello.component.js" charset="utf-8"></script>
+  <script src="people/people.controller.js" charset="utf-8"></script>
+  <script src="people/people.component.js" charset="utf-8"></script>
+  <script src="people/people.service.js" charset="utf-8"></script>
+  <script src="person/person.controller.js" charset="utf-8"></script>
+  <script src="person/person.component.js" charset="utf-8"></script>
+</head>
+<body ng-app="helloGalaxy">
+  <a ui-sref="hello">Hello</a>
+  <a ui-sref="people">Peoples</a>
+  <ui-view></ui-view>
+</body>
+</html>

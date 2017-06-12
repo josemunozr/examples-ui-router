@@ -1,0 +1,6 @@
+<h3>Some peoples:</h3>
+<ul>
+  <li ng-repeat="people in $ctrl.peoples track by $index">
+    <a ui-sref="person({ personId: people.id.value })">{{people.name.first}} {{people.name.last}}</a>
+  </li>
+</ul>
